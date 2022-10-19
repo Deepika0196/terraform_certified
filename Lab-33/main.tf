@@ -5,10 +5,7 @@
 #
 # Made by Denis Astahov
 #-------------------------------------------------------------------------------
-
-provider "aws" {
-   
-}
+ 
 
 data "aws_ami" "latest_amazon_linux" {
   most_recent = true
