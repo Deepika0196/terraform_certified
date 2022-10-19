@@ -5,7 +5,9 @@
 #
 # Made by Denis Astahov
 #-------------------------------------------------------------------------------
- 
+ provider "aws" {
+  region = "us-west-2"
+ }
 
 data "aws_ami" "latest_amazon_linux" {
   most_recent = true
